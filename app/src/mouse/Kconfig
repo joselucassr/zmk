@@ -7,6 +7,9 @@ menuconfig ZMK_MOUSE
     select INPUT_THREAD_PRIORITY_OVERRIDE
     select USB_COMPOSITE_DEVICE if ZMK_USB
 
+menuconfig ZMK_MOUSE_PS2
+	bool "Enable PS/2 mouse support"
+
 if ZMK_MOUSE
 
 if ZMK_USB
