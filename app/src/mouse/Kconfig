@@ -1,7 +1,7 @@
 # Copyright (c) 2023 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-DT_COMPAT_ZMK_PS2_MOUSE := zmk,ps2-mouse
+DT_COMPAT_ZMK_PS2_MOUSE := zmk,mouse-ps2
 
 menuconfig ZMK_MOUSE
     bool "Mouse Emulation"
